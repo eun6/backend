@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/course
     username: root
-    password:
+    password: codeypaper0118
   jpa:
     hibernate:
       ddl-auto: create
@@ -12,3 +12,6 @@ spring:
         show_sql: true
         format_sql: true
         use_sql_comments: true
+server:
+  port: 9090
+  address: localhost
