@@ -25,7 +25,6 @@ public class ChatbotServiceImpl implements ChatbotService {
             return new ChatbotResponse(responseMessage);
         } catch (Exception e){
             return new ChatbotResponse(e.getMessage());
-            //throw new BaseException(BaseResponseStatus.SERVER_ERROR);
         }
     }
 }

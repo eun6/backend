@@ -26,7 +26,7 @@ public class ChatbotController {
         // int userIdx = jwtService.getUserIdx();
         String resultQuestion = qreQuestion + chatGptReq.getQuestion();
         ChatbotResponse chatGptRes = chatService.getChatResponse(resultQuestion);
-        System.out.println("응~답~받음~" + chatGptRes);
+        System.out.println("[챗봇 응답] " + chatGptRes);
         return ResponseEntity.status(HttpStatus.OK).body(chatGptRes);
     }
 }
