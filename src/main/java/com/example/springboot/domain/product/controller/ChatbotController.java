@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/chatGPT")
 @RestController
 public class ChatbotController {
-    String qreQuestion = "hello";
+    String qreQuestion = "안녕! chatGpt에 물어볼 것이 있어";
     private final ChatbotService chatService;
     //private final JwtService jwtService;
 
