@@ -39,4 +39,4 @@ out/
 .DS_Store
 
 ### chatGPT apikey 보안 ###
-*.yml
+*.yaml
