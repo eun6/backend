@@ -1,8 +1,15 @@
+#chatGPT 연결
+openai:
+  api-key: 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
+chatgpt:
+  api-key: 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
 spring:
   #swagger 설정
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  profiles:
+    include: API-KEY #chatGPT api-key
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/course
